@@ -77,3 +77,13 @@ encrypt:
         alias: myAlias
 ```
 You can read more about about Spring RSA Encypytion here - http://cloud.spring.io/spring-cloud-config/spring-cloud-config.html#_key_management
+
+
+## Issues & Contributions
+Please [open an issue here on GitHub](https://github.com/intuit/spring-config-client-fallback/issues/new) if you have a problem, suggestion, or other comment.
+
+Pull requests are welcome and encouraged!  Any contributions should include new or updated unit tests as necessary to maintain thorough test coverage.
+
+## License
+spring-config-client-fallback is provided under the [Eclipse Public License - Version 1.0](http://www.eclipse.org/legal/epl-v10.html)
+
