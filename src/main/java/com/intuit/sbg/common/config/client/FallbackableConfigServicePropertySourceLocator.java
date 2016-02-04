@@ -51,9 +51,9 @@ public class FallbackableConfigServicePropertySourceLocator extends ConfigServic
         StringBuilder b = new StringBuilder();
         CompositePropertySource composite = (CompositePropertySource) propertySource;
         for(String propertyName: composite.getPropertyNames()){
-            String value = (String)composite.getProperty(propertyName);
+            Object value = composite.getProperty(propertyName);
             if(textEncryptor!=null)
-                value = "{cipher}"+textEncryptor.encrypt(value);
+                value = "{cipher}"+textEncryptor.encrypt(String.valueOf(value));
             b.append(propertyName+"="+value+"\n");
         }
         saveFile(b.toString());
