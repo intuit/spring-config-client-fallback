@@ -1,4 +1,4 @@
-package com.intuit.sbg.common.config.client;
+package com.intuit.common.config.client;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
