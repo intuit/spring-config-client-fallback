@@ -9,8 +9,8 @@ The best way to get the client is via Maven:
 
 ```xml
 <dependency>
-    <groupId>com.intuit.sbg-common-config.config-client</groupId>
-    <artifactId>spring-boot</artifactId>
+    <groupId>com.intuit.common-config.config-client</groupId>
+    <artifactId>spring-config-client-fallback</artifactId>
     <version>{latest_jar}</version>
 </dependency>
 ```
