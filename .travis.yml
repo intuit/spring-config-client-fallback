@@ -1,3 +1,3 @@
 language:   java
 after_success:	
-  - "[[ $TRAVIS_BRANCH == \"master\" ]] && { mvn publish; };"
+  - "[[ $TRAVIS_BRANCH == \"master\" ]] && { mvn deploy; };"
